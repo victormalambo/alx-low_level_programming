@@ -7,7 +7,7 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *haystack, char *needle);
-void Print_chessBoard(char (*a)[8]);
-void print_diagSums(int *a, int size);
-void set_String(char **s, char *to);
+void Print_chessboard(char (*a)[8]);
+void print_diagsums(int *a, int size);
+void set_string(char **s, char *to);
 #endif
